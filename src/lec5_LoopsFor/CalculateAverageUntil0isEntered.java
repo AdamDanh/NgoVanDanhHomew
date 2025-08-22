@@ -8,7 +8,7 @@ public class CalculateAverageUntil0isEntered {
         int number;
         int sum
         System.out.println("Enter one number: ");
-        int a=scanner.nextInt();
+        int a=scanner.nextInt();vhvhvh
         
         while(number!=0);
             
