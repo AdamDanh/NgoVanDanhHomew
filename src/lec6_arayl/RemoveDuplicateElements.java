@@ -1,7 +1,8 @@
-
 package lec6_arayl;
+
 import java.util.ArrayList;
 import java.util.Scanner;
+
 public class RemoveDuplicateElements {
 
     // Hàm loại bỏ phần tử trùng lặp
@@ -11,9 +12,11 @@ public class RemoveDuplicateElements {
             if (!result.contains(num)) {  // If chua co trong result thi add vao
                 result.add(num);
             }
+
         }
         return result;
     }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         ArrayList<Integer> numbers = new ArrayList<>();
@@ -35,4 +38,3 @@ public class RemoveDuplicateElements {
         scanner.close();
     }
 }
-

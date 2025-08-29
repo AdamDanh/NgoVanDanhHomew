@@ -1,7 +1,9 @@
-
 package lec6_arayl;
+
 import java.util.Scanner;
+
 public class FindtheMaximumandMinimumValue {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -29,8 +31,6 @@ public class FindtheMaximumandMinimumValue {
         }
         System.out.println("The maximum value is: " + max); //in max
         System.out.println("The minimum value is: " + min); //in min
-
         scanner.close();
     }
 }
-

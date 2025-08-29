@@ -1,7 +1,9 @@
-
 package lec6_arayl;
+
 import java.util.Scanner;
+
 public class CountOccurrences {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -32,4 +34,3 @@ public class CountOccurrences {
         scanner.close();
     }
 }
-

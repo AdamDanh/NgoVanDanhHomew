@@ -1,4 +1,3 @@
-
 package lec6_arayl;
 import java.util.Scanner;
 public class ReverseanArray {

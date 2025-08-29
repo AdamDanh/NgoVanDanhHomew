@@ -1,9 +1,10 @@
-
 package lec6_arayl;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class To_DoListManagement {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         ArrayList<String> tasks = new ArrayList<>();
@@ -17,7 +18,7 @@ public class To_DoListManagement {
             System.out.println("4. Exit");
             System.out.print("Choose an option: ");
             int choice = scanner.nextInt();
-            
+
             scanner.nextLine(); // bo dong new line sau nextInt
             switch (choice) {
                 case 1:
@@ -60,4 +61,3 @@ public class To_DoListManagement {
         }
     }
 }
-
